@@ -1,0 +1,14 @@
+let data = "It is very difficult to count. This is Sample Data. Welcome to Hyderabad. Good Morning. Java is beautifully language."
+
+function UnoCareerSplit(words){
+    return words.split(".")
+}
+
+let splitStr = UnoCareerSplit(data)
+
+for(let i=0;i<splitStr.length;i++)
+{
+console.log(splitStr[i])
+}
+console.log("the number of lines is ---->"+(splitStr.length-1))
+
